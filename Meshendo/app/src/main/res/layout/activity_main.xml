@@ -10,8 +10,31 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.manustudios.meshendo.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/serverBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Start Server"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="174dp" />
+
+    <Button
+        android:id="@+id/clientBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START CLIENT"
+        android:layout_above="@+id/serverBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp" />
+
+    <Button
+        android:id="@+id/clientConnectBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Connect Client"
+        android:layout_above="@+id/clientBtn"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
