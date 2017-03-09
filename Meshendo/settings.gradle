@@ -1,1 +1,2 @@
-include ':app'
+include ':app', ':Bluetooth_lib'
+project(':Bluetooth_lib').projectDir = new File('Blutooth_lib/Bluetooth/Bluetooth_lib')
